@@ -28,7 +28,17 @@ header {
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	border-bottom: 1px solid #e8e8e8;
+
+}
+
+.butt_flex {
+	display:flex;
+	width: 100%;
+	justify-content: center;
+}
+.button_record {
+
+	margin-bottom: 40px;
 }
 
 section.dark-bg,
@@ -218,8 +228,8 @@ body {
 
 section,
 header {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .text-left,
@@ -1873,6 +1883,48 @@ ul.diagram-horizontal li span.column{
     margin-left:100px;
 }
 
+
+
+.hashtag_wrapp {
+  display:flex;
+  justify-content: center;
+  width:100%;
+
+}
+.hashtag_box {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:80%;
+	height: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+  flex-direction:row;
+
+}
+.hashtag_line {
+  display:flex;
+  background:red;
+  width:200px;
+  height:2px;
+}
+.hashtag_text {
+  margin-left:15px;
+  margin-right: 15px;
+}
+
+.hashtag_text p {
+  color :blue;
+  font-size:30px;
+	margin-bottom: 0px;
+
+
+
+}
+
+
+
+
 ul.diagram-horizontal.name-inline li span.column{
     margin-left:0;
 }
@@ -3470,6 +3522,22 @@ ul.posts-line .post .title {
 
 	}
 
+	.button_record {
+		font-size: 15px !important;}
+
+.hashtag_box {
+	width: 98%;
+}
+.hashtag_line {
+	width: 100%;
+}
+.hashtag_text p {
+	font-size: 16px;
+}
+.hashtag_text {
+	margin-left: 5px;
+	margin-right: 5px;
+}
 
 
 }
@@ -3482,10 +3550,26 @@ ul.posts-line .post .title {
 	}
 
 
+
 }
 @media (min-width:350px) and (max-width: 992px) {
 	.first_btn {
 		font-size: 17px !important;
+	}
+	.button_record {
+		font-size: 16px !important;}
+	.hashtag_box {
+		width: 98%;
+	}
+	.hashtag_line {
+		width: 100%;
+	}
+	.hashtag_text p {
+		font-size: 17px;
+	}
+	.hashtag_text {
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 }
